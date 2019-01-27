@@ -1,1 +1,0 @@
-# fruit-slice-using-jquery
