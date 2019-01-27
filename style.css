@@ -1,0 +1,183 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle,#fff,red)
+    
+}
+#container{
+    
+    height: 500px;
+    width: 750px;
+    background-color:skyblue;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #abcdef;
+    position: relative;
+}
+#score{
+
+    background-color: #f1ff92;
+    color: #888e5f;
+    border-radius: 5px;
+    position: absolute;
+    left: 400px;
+    padding:5px;
+    box-shadow: 0px 4px 0px 0px #bbbbef
+}
+
+#displaybox{
+    width: 650px;
+    height: 66%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 70px;
+    box-shadow: 0px 4px 0px 0px #bddffa;
+    margin: 40px auto 0px auto;
+    overflow:hidden;
+    position: relative;
+    
+    
+    
+}
+#instruction{
+    width: 400px;
+    height: 40px;
+    background-color: plum;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0px 4px 0px 0px #8153a8;
+   margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2.5;
+    
+}
+#choices{
+    width: 400px;
+    height: 80px;
+    padding: 10px;
+    margin: auto;
+    background-color:palevioletred
+}
+.box{
+   background-color: white;
+    height: 50px;
+    width: 50px;
+    margin: 6%;
+    margin-top: 10px;
+    float: left;
+    box-shadow: 0px 4px grey;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 50px;
+    
+ }
+.box:hover{
+    background-color: aqua;
+    box-shadow: 0px 0px;
+    margin-top: 14px;
+}
+
+#startreset {
+    
+     background-color: #f1ff92;
+    color: #888e5f;
+    border-radius: 5px;
+    position: absolute;
+    left: 45%;
+    margin-top: 10px;
+    width: 75px;
+    padding:5px;
+    box-shadow: 0px 4px 0px 0px #bbbbef;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+#topic-1
+{
+    
+     background-color: #f1ff92;
+    color: #888e5f;
+    border-radius: 5px;
+    position: absolute;
+    left: 10px
+    margin-top: 80px;
+    width: 75px;
+    padding:5px;
+    box-shadow: 0px 4px 0px 0px #bbbbef;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+
+#topic-2{
+    
+     background-color: #f1ff92;
+    color: #888e5f;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    margin-top: 80px;
+    width: 75px;
+    padding:5px;
+    box-shadow: 0px 4px 0px 0px #bbbbef;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+#startreset #topic1 #topic2:hover{
+    box-shadow: 0px 0px;
+    background-color:burlywood;
+    color: white;
+}
+#lives{
+    background-color: azure;
+     width: 170px;
+    padding:5px;
+    box-shadow: 0px 4px 0px 0px #bbbbef;
+    text-align: center;
+    font-size: 20px;
+     position: absolute;
+    border-radius: 1px;
+    display: none;
+}
+
+#gameover{
+    
+    height: 200px;
+    width: 450px;
+    background: linear-gradient(#F3CA6B,#9DD2EA);
+    color: darkblue;
+    font-size: 2.5em;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    z-index: 2;
+    text-align: center;
+    line-height: 80px; 
+    display: none;
+    
+        
+}
+
+.fruit{
+    display: none;
+    width: 60px;
+    position: absolute;
+    left: auto;
+    top: auto;
+}
+
+
+
+
+
+
+
